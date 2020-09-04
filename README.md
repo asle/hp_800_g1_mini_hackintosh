@@ -1,4 +1,4 @@
-![HP 800 G1](https://github.com/asle/hp_800_g1_mini/blob/master/image.jpg?raw=true)
+![HP 800 G1](https://github.com/asle/hp_800_g1_mini/blob/master/hp_800_g1.png?raw=true)
 
 # HP_800_g1_mini (files coming soon!)
 The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series.
