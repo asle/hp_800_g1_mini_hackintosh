@@ -19,7 +19,7 @@ The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series.
 * iMessage, AppStore
 * AirDrop, Handoff etc.
 * Dual-boot OS X / Windows 10
-___
+
 ## About mini-PCs and this machine
 I am fascinated by these small, cute Mac Mini-like PCs and have had my hands on many different models from Lenovo, HP and Dell. You can get the first gen. models very cheap online (much cheaper than a slower Mac Mini) and they pack a lot of power considering their small size and price. They are all easy to upgrade with RAM, hard drives and CPU. That is not possible with a Mac Mini! What differs these machines are mainly:
 * Different Intel gen. 4th, 6th, 7th, 8th etc.
