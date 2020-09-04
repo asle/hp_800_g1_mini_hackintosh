@@ -1,3 +1,5 @@
+![HP 800 G1](https://github.com/asle/hp_800_g1_mini/blob/master/image.jpg?raw=true)
+
 # HP_800_g1_mini (files coming soon!)
 The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series.
 ## Specs
@@ -17,7 +19,7 @@ The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series.
 * iMessage, AppStore
 * AirDrop, Handoff etc.
 * Dual-boot OS X / Windows 10
-
+___
 ## About mini-PCs and this machine
 I am fascinated by these small, cute Mac Mini-like PCs and have had my hands on many different models from Lenovo, HP and Dell. You can get the first gen. models very cheap online (much cheaper than a slower Mac Mini) and they pack a lot of power considering their small size and price. They are all easy to upgrade with RAM, hard drives and CPU. That is not possible with a Mac Mini! What differs these machines are mainly:
 * Different Intel gen. 4th, 6th, 7th, 8th etc.
@@ -25,7 +27,7 @@ I am fascinated by these small, cute Mac Mini-like PCs and have had my hands on 
 * USB3 / USB-C and USB3 speeds
 * Single or dual drive capacity 
 * Heat and noise differences
-
+___
 The HP 800 G1 is the first gen. in this series. It features a Haswell low-power cpu, up to 16gb RAM and 2 drive slots, 1 x M.2 sata and 1 x 2.5".
 
 ## Pros HP 800 G1 
