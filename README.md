@@ -31,7 +31,7 @@ ___
 The HP 800 G1 is the first gen. in this series. It features a Haswell low-power cpu, up to 16gb RAM and 2 drive slots, 1 x M.2 sata and 1 x 2.5".
 
 ## Pros HP 800 G1 
-* The "T" cpu run cool
+* The "T" cpu runs cool
 * Easy to open (thumbscrew)
 * Simple to swap to 3rd party wifi/bt card (the HP 800 G4 would not accept the same wifi/bt card)
 * Can install 2 hard drives
