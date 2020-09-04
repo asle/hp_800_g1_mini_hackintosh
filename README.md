@@ -1,4 +1,4 @@
-# HP_800_g1_mini
+# HP_800_g1_mini (files comming soon!)
 The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series.
 ## Specs
 * Intel i7-4785T @ 2.20GHz (35w) 4-core/8-thread
