@@ -1,7 +1,7 @@
 ![HP 800 G1](https://github.com/asle/hp_800_g1_mini/blob/master/hp_800_g1.png?raw=true)
 
 # HP 800 G1 mini Hackintosh - OpenCore (files coming soon!)
-The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series.
+The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series. Perfect for hackintoshing!
 ## Specs
 * Intel i7-4785T @ 2.20GHz (35w) 4-core/8-thread
 * 16GB (2x8) DDR3 1600MHz
