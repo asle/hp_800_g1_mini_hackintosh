@@ -663,8 +663,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -859,7 +858,7 @@
 			<key>SystemProductName</key>
 			<string>iMac14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>D25NQYZ0FWJH</string>
+			<string>123456ABCDEF</string>
 			<key>SystemUUID</key>
 			<string>CBE3BF90-3806-4963-B9EF-723F2EB91D0D</string>
 		</dict>
