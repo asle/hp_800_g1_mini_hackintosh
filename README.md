@@ -4,7 +4,7 @@
 The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series. Perfect for hackintoshing!
 
 ## About this guide
-This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccomend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
+This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccomend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The OC guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
 
 ## Specs
 * Intel i7-4785T @ 2.20GHz (35w) 4-core/8-thread
