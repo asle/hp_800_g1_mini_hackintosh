@@ -2,6 +2,10 @@
 
 # HP 800 G1 mini Hackintosh - OpenCore (files coming soon!)
 The HP 800 G1 Mini is a tiny PC and first gen. of the HP 800 mini series. Perfect for hackintoshing!
+
+## About this guide
+This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide for Haswell](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html). I reccommend reading the guide carefully to understand OpenCore. Or else you will not learn anything! My goal with this guide is to help you avoid all the errors you would encounter. The guide is great but every PC is different and this one was a bit quirky and needed some tweaking to work! I assume you already have made an OS X install-USB.
+
 ## Specs
 * Intel i7-4785T @ 2.20GHz (35w) 4-core/8-thread
 * 16GB (2x8) DDR3 1600MHz
@@ -41,3 +45,19 @@ The HP 800 G1 is the first gen. in this series. It features a Haswell low-power 
 * The fan on this are a bit noisier than others I have tested even when temps are low
 * The CPU heatsink must be removed to swap the M.2 drive. Thus new thermal paste must be applied
 * The M.2 drive is NVMe but only SATA meaning not better speed than a 2.5" SSD. 
+
+## Installation
+* I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime)to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own HP 800 G1 to be sure.
+* Copy over my EFI folder to the EFI partition
+* Edit config.plist to enter new serialse UUID etc.
+
+## USB port mapping
+I have enclosed the USBports.kext derived from hackintool. It should work on your PC of this model.
+
+## Wifi - Bluetooth
+I am using the BCM94360NG from FENVI. This requires no extra kexts to work as it is recognized as a native card.
+
+![BCM94360NG](https://github.com/asle/hp_800_g1_mini/blob/master/BCM94360NG.jpg?raw=true)
+
+I also tested with a Dell 1820A wifi/bt card that is much cheaper and am using it in some other Hackintoshes. To make it work you have to add the airport* and brcm* kexts in the **Kexts_off** folder.  I do not reccomend these cards as some work and some don't. I had one left over and this must have been bad because I suddenly got kernel panics and all kinds of different boot errors. After many hours I removed the 1820A and everything was ok again! That is why I suggest to use the extra money on the BCM94360NG. It just works. I am not sure about the **AirportBrcmFixup.kext** since it only renames the wifi card to AirportExtreme. I did not see any speed difference with it. Have to test more.
+
