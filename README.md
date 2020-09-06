@@ -9,6 +9,7 @@ This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide
 ## Specs
 * Intel i7-4785T @ 2.20GHz (35w) 4-core/8-thread
 * 16GB (2x8) DDR3 1600MHz
+* 6 x USB-3, 2 front, 4 back
 * M.2 NVMe AHCI 128GB drive
 * 2.5" SSD Samsung 860 EVO 500GB
 * BCM94360NG(M.2) wifi/bt card
