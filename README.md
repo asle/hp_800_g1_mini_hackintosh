@@ -54,6 +54,10 @@ The HP 800 G1 is the first gen. in this series. It features a Haswell low-power 
 ## USB port mapping
 I have enclosed the USBports.kext derived from hackintool. It should work on your PC of this model.
 
+## config.plist changes
+I had a lot of different errors mostly related to "com.apple.AppleFSCompressionTypeDataLess load succeeded" and kernel panics. Coming from Clover I found the equivalent to 
+"usb fixusbownership" which is "ReleaseUsbOwnership -> YES" in OpenCore. This seemed to fix those problems. And to be honest I don't remember all changes I did. You will see the [OC sanity checker](https://opencore.slowgeek.com/) complain about those changes :-)
+
 ## Wifi - Bluetooth
 I am using the BCM94360NG from FENVI. This requires no extra kexts to work as it is recognized as a native card.
 
