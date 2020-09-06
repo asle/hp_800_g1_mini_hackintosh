@@ -48,9 +48,13 @@ The HP 800 G1 is the first gen. in this series. It features a Haswell low-power 
 * The M.2 drive is NVMe but only SATA meaning not better speed than a 2.5" SSD. 
 
 ## Installation
-* I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime)to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own HP 800 G1 to be sure.
+* I installed Windows10 on the drive and used [SSDTIME](https://github.com/corpnewt/SSDTTime) to generate the SSDTs. I copied these over to the ACPI folder. I can not guarantee these are perfect for your PC but I suggest you do this on your own HP 800 G1 to be sure.
 * Copy over my EFI folder to the EFI partition
 * Edit config.plist to enter new serialse UUID etc.
+
+## BIOS setup
+I suggest upgrading to latest version which is L04 V02.33 (04/17/2019). There is not much to configure. The only thing I changed was **Security -> VTd -> Disabled**. You can also disable this in config.plist. 
+Make sure your **Storage -> Storage Options -> SATA Emulation > AHCI**, but this is default. There is no IGPU config so this must be set in deviceproperties in config.plist. I suggest setting ***Power->Thermal->Fan Idle Mode->lowest*** to make sure the fan are quiet when not under load. The fan noise is acceptable but can blow hard under heavy load. I don't think I ever see the CPU over 65° C. 
 
 ## USB port mapping
 I have enclosed the USBports.kext derived from hackintool. It should work on your PC of this model.
@@ -78,3 +82,6 @@ Devicepropertides for audio and gpu:
 
 ![BCM94360NG](https://github.com/asle/hp_800_g1_mini/blob/master/hp800g1_deviceproperties.png?raw=true)
 
+## Misc.
+### Performance ###
+This Haswell is a i7 4785T, 4-core/8-thread. It is faster than e.g. a Skylake 6500T. Of course a Skylake also has faster RAM. I just love the Haswell versions since they are so easy to hack- Skylake has been a pain regarding sleep and GPU issues. This runs 32 tracks in Logic Pro X (the test file) with all plugins. Not bad for a machine you can get for $200-$300 used! The cool thing about these is you can buy a cheap i3 Intel version and buy a faster i5 or i7 online. 
