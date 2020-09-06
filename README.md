@@ -74,4 +74,7 @@ This works OTB with no other patching then the one from the OC Guide. So I have 
 ## Audio
 Realtek ALC221. This works fine with correct alcid=11. 
 
-![BCM94360NG](https://github.com/asle/hp_800_g1_mini_hackintosh/blob/master/BCM94360NG.jpg?raw=true)
+Devicepropertides for audio and gpu:
+
+![BCM94360NG](https://github.com/asle/hp_800_g1_mini/blob/master/hp800g1_deviceproperties.png?raw=true)
+
