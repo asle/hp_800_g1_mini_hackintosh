@@ -19,6 +19,7 @@ This is not a complete tutorial but based on the [OpenCore Vanilla Desktop Guide
 * Mac OS X 10.15.6
 * Sleep
 * Wifi/Bluetooth with new Broadcom card
+* Audio, in/mic and out
 * Multi-monitor (2)
 * iMessage, AppStore
 * AirDrop, Handoff etc.
@@ -65,3 +66,12 @@ I am using the BCM94360NG from FENVI. This requires no extra kexts to work as it
 
 I also tested with a Dell 1820A wifi/bt card that is much cheaper and am using it in some other Hackintoshes. To make it work you have to add the airport* and brcm* kexts in the **Kexts_off** folder.  I do not reccomend these cards as some work and some don't. I had one left over and this must have been bad because I suddenly got kernel panics and all kinds of different boot errors. After many hours I removed the 1820A and everything was ok again! That is why I suggest to use the extra money on the BCM94360NG. It just works. I am not sure about the **AirportBrcmFixup.kext** since it only renames the wifi card to AirportExtreme. I did not see any speed difference with it. Have to test more.
 
+For info I have tested the BCM94360NG on **HP 800 G2** and the G4 version but none of these seemed to accept any other M.2 wifi/bt cards than Intel. I don't know why and HP could not help me (on windows of course). Random crashes, terrible speed. That is why I was so glad this G1 worked!
+
+## Multi-monitor
+This works OTB with no other patching then the one from the OC Guide. So I have 2 monitors working with not problems. VGA does not work like on any other Hackintosh!
+
+## Audio
+Realtek ALC221. This works fine with correct alcid=11. 
+
+![BCM94360NG](https://github.com/asle/hp_800_g1_mini/blob/master/hp800g1_deviceproperties.png?raw=true)
